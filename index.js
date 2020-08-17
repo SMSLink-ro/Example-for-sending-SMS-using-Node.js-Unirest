@@ -1,5 +1,12 @@
 var unirest = require("unirest");
 
+/*
+
+  HTTPS API Endpoint:  https://secure.smslink.ro/sms/gateway/communicate/index.php
+  HTTP API Endpoint:   http://www.smslink.ro/sms/gateway/communicate/index.php
+
+*/
+
 var req = unirest("GET", "https://secure.smslink.ro/sms/gateway/communicate/index.php");
 
 /* 
